@@ -6,11 +6,13 @@ public static void main(String[] args) {
 	spongebob.eat();
 	spongebob.laugh();
 	SeaCreature patrick = new SeaCreature("patrick");
-	patrick.getName();
+	String patrickname = patrick.getName();
+	System.out.println(patrickname);
 	patrick.eat();
 	patrick.laugh();
 	SeaCreature squidward = new SeaCreature("squidward");
-	squidward.getName();
+	String squidwardname = squidward.getName();
+	System.out.println(squidwardname);
 	squidward.eat();
 	squidward.laugh();
 }

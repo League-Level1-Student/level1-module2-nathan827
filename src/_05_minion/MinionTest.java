@@ -33,7 +33,20 @@ This is because there is no Minion class in the package.
     
  */
 
+	
+
 public class MinionTest {
+	class Minion{
+		private String name;
+			Minion(String name){
+			this.name = name;
+		}
+			private int eyes;
+				void eyes(int eyes){
+					this.eyes = eyes;
+				}
+			
+	}
 
 	@Test
 	public void testConstructor() {
